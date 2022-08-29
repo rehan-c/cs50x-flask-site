@@ -3,7 +3,8 @@ from cs50 import SQL
 
 app = Flask(__name__)
 
-db = SQL("sqlite:///comments.db")
+#db = SQL("sqlite:///comments.db")
+db = SQL("sqlite:////home/rehanchoudhery/cs50x-flask-site/comments.db")
 
 @app.route("/")
 def index():
